@@ -1,0 +1,96 @@
+================================================================
+                         ALEX MORGAN
+                    Senior DevOps Engineer
+================================================================
+Ashburn, VA  |  (555) 123-4567  |  alex.morgan@email.com
+linkedin.com/in/alexmorgan  |  github.com/alexmorgan
+================================================================
+
+
+PROFESSIONAL SUMMARY
+--------------------
+DevOps Engineer with 6+ years of experience designing and
+automating cloud-native infrastructure across AWS and Azure.
+Skilled in Kubernetes, CI/CD pipelines, Infrastructure as Code,
+and secure deployment practices for regulated environments
+including AWS GovCloud. Passionate about automation, reliability,
+and helping development teams ship faster with confidence.
+
+
+TECHNICAL SKILLS
+----------------
+Cloud:         AWS (EKS, ECR, S3, IAM, Secrets Manager),
+               AWS GovCloud, Azure (AKS, Key Vault, ACR)
+Containers:    Kubernetes, Docker, Helm, Kustomize
+GitOps:        ArgoCD, External Secrets Operator, cert-manager
+IaC:           Terraform, Ansible, CloudFormation
+CI/CD:         GitHub Actions, Jenkins (Groovy), GitLab CI
+Data/Stream:   Apache Kafka, Confluent, Elasticsearch, Kibana
+Security:      HashiCorp Vault, SBOM (Syft, CycloneDX, SPDX),
+               mTLS/PKI, RBAC
+Scripting:     Bash, Python, PowerShell, Groovy
+Monitoring:    Prometheus, Grafana, Datadog, ELK
+
+
+PROFESSIONAL EXPERIENCE
+-----------------------
+
+Senior DevOps Engineer
+Contoso Federal Systems, Ashburn VA
+Jan 2023 - Present
+
+  * Designed and deployed a multi-region EKS GovCloud platform
+    hosting 40+ microservices across 20 namespaces, cutting
+    deployment lead time by 65%.
+  * Implemented a GitOps workflow using ArgoCD App of Apps,
+    enabling self-service deployments for 8 engineering teams.
+  * Built a GitHub Actions pipeline generating CycloneDX and
+    SPDX SBOMs for every ECR image to meet federal compliance.
+  * Architected a Confluent Kafka cluster on Kubernetes with
+    automated connector provisioning and Elasticsearch sinks.
+  * Migrated secrets to External Secrets Operator backed by AWS
+    Secrets Manager and HashiCorp Vault.
+  * Established a two-tier PKI with cert-manager for service
+    mTLS, eliminating manual certificate rotation incidents.
+  * Mentored 3 junior engineers on Kubernetes, Terraform, and
+    production incident response.
+
+
+DevOps Engineer
+Acme Cloud Solutions, Reston VA
+Jun 2020 - Dec 2022
+
+  * Provisioned AKS clusters with Terraform including Azure CNI,
+    node pools, Key Vault, and Bastion access.
+  * Built Jenkins Groovy pipelines for Java, .NET, and Node.js
+    services with automated tests and Artifactory publishing.
+  * Migrated a legacy Docker Swarm environment to Kubernetes
+    with Kustomize overlays, cutting infra costs by 30%.
+  * Implemented Prometheus and Grafana monitoring with
+    PagerDuty integration, reducing MTTR by 40%.
+
+
+Systems / Build Engineer
+Initech Software, Herndon VA
+Aug 2018 - May 2020
+
+  * Maintained Jenkins build infrastructure for legacy Prism
+    application with patch and full-build modes.
+  * Automated Windows Server provisioning with PowerShell DSC,
+    cutting setup time from 2 days to 2 hours.
+  * Wrote Bash and Python utilities for build monitoring,
+    log rotation, and artifact archival to Azure Blob Storage.
+
+
+EDUCATION
+---------
+B.S. Computer Science
+George Mason University, 2018
+
+
+CERTIFICATIONS
+--------------
+  * AWS Certified Solutions Architect - Associate
+  * Certified Kubernetes Administrator (CKA)
+  * HashiCorp Certified: Terraform Associate
+  * Microsoft Certified: Azure Administrator Associate
