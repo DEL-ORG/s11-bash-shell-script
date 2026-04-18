@@ -89,11 +89,11 @@ CLUSTER_NAME="something-else"   # Error: readonly variable
 
 ### 3.4 Arrays (Indexed)
 
-A list of values accessed by number (starting at 0).
+A list of values accessed by number (starting at 1).
 
 ```bash
 namespaces=("abc-api" "jkl-worker" "xyz-db")
-echo "${namespaces[0]}"        # abc-api
+echo "${namespaces[1]}"        # abc-api
 echo "${namespaces[@]}"        # all elements
 echo "${#namespaces[@]}"       # count: 3
 ```
