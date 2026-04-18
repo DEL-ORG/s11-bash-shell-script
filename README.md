@@ -1,3 +1,3 @@
 # s11-bash-shell-script
 
-https://chatgpt.com/c/69e3c77b-3a18-83ea-bd7d-9df23e936b27
+https://chatgpt.com/share/69e3cc7b-db74-83ea-a106-612828ad3dce
