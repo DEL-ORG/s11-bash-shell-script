@@ -812,6 +812,89 @@ case "$1" in
     exit 1
     ;;
 esac
+
+
+ENV="$1"
+
+case "$ENV" in
+  prod|production|prd|PROD|PRODUCTION|PRD)
+    echo "Deploying to PROD"
+    ;;
+  stg|staging|stage)
+    echo "Deploying to STAGING"
+    ;;
+  dev|development|develop)
+    echo "Deploying to DEV"
+    ;;
+  *)
+    echo "Invalid environment"
+    ;;
+esac
+
+#!/bin/bash
+
+ENV="$1"
+
+if [[ "$ENV" == "prod" || "$ENV" == "production" || "$ENV" == "prd" ]]; then
+    echo "Deploying to PROD"
+
+elif [[ "$ENV" == "stg" || "$ENV" == "staging" || "$ENV" == "stage" ]]; then
+    echo "Deploying to STAGING"
+
+elif [[ "$ENV" == "dev" || "$ENV" == "development" || "$ENV" == "develop" ]]; then
+    echo "Deploying to DEV"
+
+else
+    echo "Invalid environment"
+fi
+
+
+#!/bin/bash
+
+ENV="$1"
+
+if [[ "$ENV" == "prod" ]]; then
+    echo "Deploying to PROD"
+
+elif [[ "$ENV" == "production" ]]; then
+    echo "Deploying to PROD"
+
+elif [[ "$ENV" == "prd" ]]; then
+    echo "Deploying to PROD"
+
+elif [[ "$ENV" == "stg" ]]; then
+    echo "Deploying to STAGING"
+
+elif [[ "$ENV" == "staging" ]]; then
+    echo "Deploying to STAGING"
+
+elif [[ "$ENV" == "stage" ]]; then
+    echo "Deploying to STAGING"
+
+elif [[ "$ENV" == "dev" ]]; then
+    echo "Deploying to DEV"
+
+elif [[ "$ENV" == "development" ]]; then
+    echo "Deploying to DEV"
+
+elif [[ "$ENV" == "develop" ]]; then
+    echo "Deploying to DEV"
+
+else
+    echo "Invalid environment"
+fi
+
+Y
+YES
+yes
+y
+
+no
+N
+n
+No
+
+y/n
 ```
 
 ---
